@@ -111,3 +111,11 @@ fi
 ```
 
 ### More todo
+
+Child process
+
+> A script can export variables only to child processes, that is, only to commands or processes which that particular script initiates.
+> A script invoked from the command-line cannot export variables back to the command-line environment. Child processes cannot export
+> variables back to the parent processes that spawned them.
+
+> Definition: A child process is a subprocess launched by another process, its parent.
